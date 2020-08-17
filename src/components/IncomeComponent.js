@@ -22,13 +22,13 @@ export const IncomeComponent = () => {
       <div>
         <h4>Income</h4>
         <p id="money-plus" className="money plus">
-          +${income}
+          +₹{income}
         </p>
       </div>
       <div>
         <h4>Expense</h4>
         <p id="money-minus" className="money minus">
-          -${expense}
+          -₹{expense}
         </p>
       </div>
     </div>
